@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: integration-suite-test-component-git-source-phsr
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:e861dbe8ec084f74a9405415f078c1f5
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:2f6c9f78adcb54177f36e77a24283db8b193bed83dc6b3fc64ce1cfb746c2579
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
